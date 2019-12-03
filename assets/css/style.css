@@ -49,14 +49,6 @@ ul li:hover {
     background-color: black;
     color:white;
 }
-button {
-    margin:15px;
-    width:50px;
-    border:none;
-    border-radius: 15px;
-    background-color:white;
-    opacity:0.7;
-}
 .cleaner {
     clear:both;
 }
@@ -76,21 +68,13 @@ button {
     background-color:  #3D2C24;
     height:120px;
 }
-#logo {
-    width:80%;
-    display: none;
-    text-align: center;
-    color: #F8E0AB;
-}
 #meni {
     width:90%;
 }
 @media screen and (max-width: 478px) {
-    #meni {
-        display:none;
-    }
-    #logo {
-        display: block;
+    ul li {
+        font-size:15px;
+        padding: 5px 10px;
     }
     h2 {
         font-size:25px;
