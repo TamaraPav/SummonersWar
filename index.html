@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Summoner's War</title>
+    <meta name="description" content="">
+    <meta author="Tamara Pavlović">
+    <meta name="keywords" content="Summoner, war, game, monster">
+    <meta name="robots" content="index, follow" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
+    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.3.0/animate.min.css">
+</head>
+<body>
+
+    <div id="heder" class="flex">
+        <div id="logo">
+            <h1>Summoners War</h1>
+        </div>       
+        <div id="meni">
+            <ul id="nav" class="flex">
+            </ul>
+        </div>       
+    </div>
+    <div id="welcome"></div>
+
+    <div>
+        <h2 id="gameplay">&#8275; Gameplay &#8275;</h2>
+        <div>
+            <p class="demo1">Witness the dazzling display of each Monster's unique skills! You can decorate your Village, battle other summoners, explore Dungeons, fight in PvP battles, expand your Collection, train Monsters, and more!
+            </p>
+        </div>
+        <div>
+            <ul class="jc-slider" id="slajder">
+                <li class="jc-animation">
+                    <img class="igra" src="images/gameplay0.jpg">
+                </li>
+                <li class="jc-animation">
+                    <img class="igra" src="images/gameplay1.jpg">
+                </li>
+                <li class="jc-animation">
+                    <img class="igra" src="images/gameplay2.jpg">
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div>
+        <h2 id="monsters">&#8275; Monsters &#8275;</h2>
+            <p>
+                Newly summoned monsters can range from a 1-star grade to a 5-star grade, with 4 and 5 star monsters being the rarest. 5 star monsters have about a 0.5% chance to obtain from a mystical scroll. 4 star monsters have about an 8.2% chance to obtain from a mystical scroll. 3 star monsters have about a 91% chance to summon from a mystical scroll. Using monsters in battle raises their experience level, and they can be evolved to a higher star grade, with the maximum being a 6-star grade.
+            </p>
+            <p>
+                Fire, Water, Wind, Light and Dark!
+                5 different attributes, and 1000 different monsters!
+                Collect as many monsters as you can and assemble the greatest team!
+            </p>
+      <div id="omot">
+        <ul id="izbor" class="flex">
+
+        </ul>
+      </div>
+        <div id="monsteri" class="flex">
+           
+        </div>
+    </div>
+
+    <div class="brown">
+        <h2 id="dungeons">&#8275; Dungeons &#8275;</h2>
+        <div class="container">
+            <div class="main-content">
+                <div class="content-switcher" id="content1">
+                    <img class="dungeon" src="images/giant.jpg" alt=""/>
+                    <h4>Giant Dungeon</h4>
+                    <p class="info">The Giant's Keep contains ten floors, each of which requires defeating an Ancient Giant as a boss. Doing so awards players with Runes. This location is the primary source of Despair Runes. Other possible rune drops are Energy, Fatal, Blade, and Swift. Like the Halls of Elements and Hall of Magic, two crystals aid the Giants here. As well, the Giants possess the unique ability to counter attack every 7th attack from your monsters.</p>
+                </div>
+                <div class="content-switcher" id="content2">
+                        
+                    <img class="dungeon" src="images/necropolis.jpg" alt=""/>    
+                    <h4>Necropolis Dungeon</h4>    
+                    <p class="info">Necropolis B10 is an end-game dungeon rich in Mana Stones and the main source of high-quality Vampire, Rage and Will runes. This will put your Violent and Revenge runes to test and see the effect of grindstones and enchanted gems from R3. When you are able to farm NB10 efficiently, this will help your PvP game drastically, thus being able to play competitively in the Arena, Guild Wars, Siege, and RTA.</p>
+                </div>
+                <div class="content-switcher" id="content3">
+                    <img class="dungeon" src="images/magic.jpg" alt=""/>
+                    <h4>Hall of Magic</h4>
+                    <p class="info">The Hall of Magic has essences often awarded for clearing a floor. The essences unique to the Hall of Magic are the Essences of Magic, although essences for the other elements can also be found here as well. Bosses here are similar to the Halls of Elements, in that two crystals aid the boss with buffs, and debuffs against players. As the floor number gets higher, the bosses generally get stronger.</p>
+                </div>
+            </div>
+            <div class="progress-container">
+                <a href="#" class="item-number underline" id="item1" onClick="selectDungeon(1); return false;">1</a>
+                <a href="#" class="item-number" id="item2" onClick="selectDungeon(2); return false;">2</a>
+                <a href="#" class="item-number" id="item3" onClick="selectDungeon(3); return false;">3</a>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <h2 id="arena">&#8275; Arena &#8275;</h2>
+        <div id="arena1" class="flex">
+            <img class="dungeon" src="images/arenabattle.jpg" alt="Arena"/>
+            <p>The Arena is where players engage in PVP (player vs player) battles with one another as well as with NPC (Rivals with their monsters). Each battle costs one Arena Invitation. In Arena battles, each player will have a team of four monsters, with the winner being the one that defeats all of the opponent's monsters. Winning a battle offers players various rewards, such as Glory Points, Mana Stones, Energy, Experience, and sometimes Crystals.</p>
+        </div>
+    </div>
+
+    <div class="brown">
+        <h2 id="member">&#8275; Become a member! &#8275;</h2>
+        <p>If you want to gain access to our secret base of &#8275;Tips and Tricks&#8275; and make yourself one of the best players in the world, <span id="log">log in</span> or <span id="reg">register</span> below!</p>
+        <div id="forme">
+            <div>
+                <form id="signIn" name="signIn" method="POST" action="">
+                    <h4>&#8275; Login &#8275;</h4>
+
+                    <label for="mailIn">Email</label>
+                    <input id="mailIn" type="text" placeholder="email@something.com *" />
+                    <p id="loginMailError"></p>
+                    <label for="passIn">Password</label>
+                    <input id="passIn" type="password" placeholder="Your Password *" />
+                    <p id="loginPassError"></p>
+                    <input id="submitIn" type="submit" value="Login" />
+                </form>
+            </div>
+            <div>
+                <form id="signUp" name="signUp" method="POST" action="">
+                        <h4>&#8275; Register &#8275;</h4>
+
+                        <label for="name">Name</label>
+                        <input id="name" type="text" placeholder="Name *" />
+                        <p id="nameError"></p>
+                        <label for="username">Summoners Username</label>
+                        <input id="username" type="text" placeholder="Username *" />
+                        <p id="usernameError"></p>
+                        <label for="mailUp">E-mail</label>
+                        <input id="mailUp" type="text" placeholder="email@something.com *" />
+                        <p id="emailError"></p>
+                        <label for="passUp">Password</label>
+                        <input id="passUp" type="password" placeholder="Your Password *" />
+                        <p id="passwordError"></p>
+                        <label for="confPassUp">Confirm Password</label>
+                        <input id="confPassUp" type="password" placeholder="Your Password Again *" />
+                        <p id="passwordAgainError"></p>
+                        <input id="submitUp" type="submit" value="Register" />
+                </form>
+           </div>
+           <div class="cleaner"></div>
+        </div>
+    </div>
+
+    <div id="autor">
+        <h2 id="author">&#8275; Author &#8275;</h2>
+        <div class="flex">
+            <img src="images/tamara.JPG" alt="Tamara"/>
+            <p>Name: Tamara Pavlović<br />
+            Summoners War Username: TamTam<br />
+            Account Created: 23/08/2014<br />
+            Level: 50<br />
+            Favorite Hero: Ariel<br />
+            <a href="pdf/dokumentacija.pdf">Dokumentacija</a><br />
+            <a href="xml/sitemap.xml"><i class="fa fa-sitemap" aria-hidden="true"></i></a></p>           
+        </div>
+    </div>
+
+    <div id="futer">
+        <ul id="navFut" class="flex">
+        </ul>
+    </div>
+
+    <i id="gore" class="fa fa-chevron-circle-up"> </i>
+
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/jquery/jquery.jcslider.min.js"></script>
+    <script src="assets/jquery/Text-Animation/js/animatext.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/account.js"></script>
+</body>
+</html>

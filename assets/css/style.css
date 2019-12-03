@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #C58835;
+    font-family: 'Indie Flower', cursive;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color:black;
+    font-weight: 600;
+}
+a:visited {
+    color:black;
+}
+a:hover {
+    color:white;
+}
+p {
+    padding:15px;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 600;
+}
+h2 {
+    font-size:35px;
+    text-align: center;
+    padding-top: 15px;
+}
+h4 {
+    font-size:25px;
+    text-align: center;
+    margin:5px;
+}
+ul li {
+    background-color: #F8E0AB;
+    border:1px solid black;
+    border-radius: 15px;
+    padding:10px 20px;
+    margin:2px;
+    font-size:20px;
+    font-weight: 600;
+}
+ul li:hover {
+    background-color: black;
+    color:white;
+}
+button {
+    margin:15px;
+    width:50px;
+    border:none;
+    border-radius: 15px;
+    background-color:white;
+    opacity:0.7;
+}
+.cleaner {
+    clear:both;
+}
+.flex {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.flex1 {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#heder {
+    background-color:  #3D2C24;
+    height:120px;
+}
+#logo {
+    width:80%;
+    display: none;
+    text-align: center;
+    color: #F8E0AB;
+}
+#meni {
+    width:90%;
+}
+@media screen and (max-width: 478px) {
+    #meni {
+        display:none;
+    }
+    #logo {
+        display: block;
+    }
+    h2 {
+        font-size:25px;
+    }
+}
+#welcome {
+    width:100%;
+    height:600px;
+    background-image: url("../../images/summonersSmall.png");
+    background-size: cover;
+	background-position: top center;
+	background-repeat: no-repeat;
+    position: relative;
+    display:none;
+}
+@media screen and (min-width: 375px) {
+    #welcome {
+        background-image: url("../../images/summonerswar.jpg");
+    }
+}
+@media screen and (min-width: 850px) {
+    #welcome {
+        background-position: bottom center;
+    }
+}
+.monster {
+    border: 2px solid black;
+    border-radius: 25px;
+}
+.mon {
+    text-align: center;
+}
+#omot {
+    width:80%;
+    margin: 0 auto;
+}
+#slajder {
+    background-color: #C58835;
+}
+.jc-animation {
+    border:none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #C58835;
+}
+.jc-animation:hover{
+    background-color: #C58835;
+}
+.igra {
+    border-radius: 15px;
+    max-width:95%;
+}
+.container {
+    width:100%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.main-content {
+    width:100%;
+}
+.dungeon {
+    border-radius: 15px;
+    width:95%;
+}
+.info {
+    font-size: 20px;
+    text-align: justify;
+}
+.content-switcher {
+    display: none;
+    text-align: center;
+}
+
+.content-switcher:first-child {
+    display: block;
+}
+.progress-container {
+    text-align: center;
+    font-size:30px;
+}
+.progress-selected {
+    display:block;
+    border:1px solid black;
+    border-radius: 25%;
+}
+.underline {
+    text-decoration: underline;
+}
+#arena1 {
+    width: 100%;
+}
+#forme {
+    width:100%;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding:5px;
+    margin:5px;
+}
+form h4 {
+    color: #F8E0AB;
+}
+form p {
+    color:red;
+    font-size:15px;
+    padding:5px;
+    margin:0;
+
+}
+label {
+    font-size:22px;
+    color: #F8E0AB;
+}
+#signIn {
+    text-align: center;
+    width:45%;
+    float:left;
+}
+#signUp {
+    text-align: center;
+    width:45%;
+    float:right;
+}
+@media screen and (max-width: 500px) {
+    #signIn {
+        float:none;
+        width:95%;
+    }
+    #signUp {
+        float:none;
+        width:95%;
+    }
+}
+input {
+    background-color: #D5B069;   
+    border: 1px solid 	#523B2B;
+    padding:5px;
+}
+input[type="submit"] {
+    margin: 0 auto;
+    width:40%;
+    font-family: 'Indie Flower', cursive;
+    font-size:20px;
+}
+input:focus {
+    background-color: #F8E0AB; 
+}
+.error {
+    border:1px solid red;
+}
+.brown {
+    background-color:  #3D2C24;
+    color: #F8E0AB;
+}
+.brown a {
+    color: #F8E0AB;
+}
+#izbor {
+    padding-bottom:10px;
+}
+#autor {
+    padding-bottom:20px;
+}
+#autor img {
+    border-radius: 50%;
+    border: 1px solid 	#523B2B;
+
+}
+#futer {
+    padding:20px;
+    background-color:  #3D2C24;
+    
+}
+#log, #reg {
+    text-decoration: underline;
+    font-size:20px;
+}
+#log:hover, #reg:hover {
+    cursor: pointer;
+}
+#gore {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index:98;
+    margin: 4px;
+    font-size: 30px;
+    color: #F8E0AB;
+}
